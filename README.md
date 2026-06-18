@@ -1,8 +1,25 @@
-# Modular-Operator-for-Odd-and-even-numbers
- A C++ program that reads in an integer value from the user and checks if it is odd using the modulus operator. If it is odd, print "Odd number" to the screen, otherwise print "Even number".
-makefile.win
-Q8.cpp
-Q8.dev
-Q8.exe
-Q8.layout
-Q8.o
+# 🔢 Odd or Even Number Checker (C++)
+
+This C++ program reads an integer from the user and determines whether it is an **odd** or **even** number.
+
+---
+
+## 🧠 Objective
+To practice conditional statements and modular arithmetic in C++.
+
+---
+
+## 📜 Problem Statement
+> Write a C++ program that reads an integer and prints **"Odd Number"** if the number is odd, otherwise prints **"Even Number"**.
+
+---
+
+## 💻 Code Overview
+The program:
+1. Prompts the user to enter an integer (`P`).
+2. Uses the modulo operator (`%`) to check:
+   - `P % 2 != 0` → odd number  
+   - `P % 2 == 0` → even number
+3. Displays the result using an `if-else` statement.
+
+---
